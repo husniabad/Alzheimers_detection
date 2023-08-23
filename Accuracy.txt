@@ -1,0 +1,9 @@
+Alzheimer's detection using MRI scan
+
+CNN architecture
+
+Training accuracy of 86.34%. and Validation accuracy of 86.45%
+
+
+
+

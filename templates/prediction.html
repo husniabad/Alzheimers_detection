@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Alzheimer detection </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../static/css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="../static/css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="../static/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="../static/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="../static/fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="../static/css/aos.css">
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="../static/css/style.css">
+
+</head>
+
+<body>
+
+
+  <div class="site-wrap" id="home-section">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+
+
+    <header class="site-navbar site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center position-relative">
+
+        <div class="col-3">
+              <div class="site-logo">
+                <a href="index.html">Alzheimer detection  <span class="text-primary">.</span> </a>
+              </div>
+            </div>
+
+            <div class="col-9 text-right">
+              
+              <span class="d-inline-block d-lg-none"><a href="#" class=" site-menu-toggle js-menu-toggle py-5 "><span class="icon-menu h3 text-white"></span></a></span>
+
+              <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
+                <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                 <li ><a href="{{url_for('first')}}" class="nav-link">Home</a></li>
+                  <li><a href="{{url_for('login')}}" class="nav-link">Login</a></li>
+                <li class="active"><a href="{{url_for('main')}}" class="nav-link">Preview</a></li>
+				 <a href="{{url_for('performance')}}" class="nav-link">Performance_analysis</a></li>
+                </ul>
+              </nav>
+            </div>
+
+
+        </div>
+      </div>
+
+    </header>
+
+
+    <div class="hero" style="background-image: url('../static/images/head6.jpg');">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-8 intro text-center">
+            <h1 class="text-white">Result</h1>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section bg-light" id="contact-section">
+      <div class="container">
+        <div class="row">
+          <div style="margin-left:200px">
+		<body>
+        
+  <nav class="root navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid row">
+      <div class="navbar-header col-md-1 col-sm-1">
+          
+      </div>
+      <div class="navbar-header col-md-12 col-sm-12"><h2 style="font-size: 3.5em;"> Alzheimer detection using MRI  </h1></div>    
+    </div>
+  </nav>
+ 
+   <div class="content">
+         
+          <div class="col-lg-12">
+  
+            {% if prediction %}
+                </br>
+                <center><img src="{{img_path}}" height="300px" width="300px"></center>
+                </br>
+              </br>
+                <h2 class="text-center"> Alzheimer Disease Prediction   : <i class="text-danger"> {{prediction}} </i></h2>
+                <br />
+                <h4 class="text-center"><a href="/index">Upload Again</a></h4>
+              
+            {% endif %}
+          </div>
+       
+
+</body>	 </div>	
+</div>
+		 
+	 </div> 
+          
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      
+      <footer class="site-footer py-5">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-4">
+
+              <div class="text-center quick-contact-info">
+                
+              </div>
+
+            </div>
+            <div class="col-lg-4">
+
+              <div class="text-center quick-contact-info">
+                
+              </div>
+
+            </div>
+            <div class="col-lg-4">
+
+              <div class="text-center quick-contact-info">
+                
+              </div>
+
+            </div>
+          </div>
+          
+          
+          <div class="row pt-5 mt-5 text-center">
+         
+            
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+    <script src="../static/js/jquery-3.3.1.min.js"></script>
+    <script src="../static/js/popper.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/owl.carousel.min.js"></script>
+    <script src="../static/js/jquery.sticky.js"></script>
+    <script src="../static/js/jquery.waypoints.min.js"></script>
+    <script src="../static/js/jquery.animateNumber.min.js"></script>
+    <script src="../static/js/jquery.fancybox.min.js"></script>
+    <script src="../static/js/jquery.easing.1.3.js"></script>
+    <script src="../static/js/bootstrap-datepicker.min.js"></script>
+    <script src="../static/js/aos.js"></script>
+
+    <script src="../static/js/main.js"></script>
+
+  </body>
+
+  </html>
+
